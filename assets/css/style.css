@@ -320,7 +320,7 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #213a34 repeat;
   position: relative;
 }
 
@@ -546,6 +546,10 @@ small {
   color: #666 !important;
 }
 
+.githubiconproject .fa-github:hover{
+  background-color: rgb(10, 9, 9);
+}
+
 /* main .teal-text */
 
 .teal-text {
@@ -559,7 +563,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #045850 !important;
 }
 
 /* .teal {
