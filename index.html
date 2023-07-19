@@ -138,7 +138,7 @@
         4. mdi-file-attachment
         5. mdi-file-folder-shared
         -->
-        <a aria-label="Open Haroon's resume in a new tab" href="https://drive.google.com/file/d/1uhqGsLAP5fboMjibOxaiEXSpaSQjUGrU/view?usp=sharing" target="_blank"
+        <a aria-label="Open Haroon's resume in a new tab" href="https://drive.google.com/file/d/1aGWZTh-a3pT-PCytrZx1zVAoySYnQTkg/view?usp=sharing" target="_blank"
         class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
       </li>
     </ul>
@@ -184,7 +184,7 @@
       </li>
       <li class="bold">
         <a aria-label="Open Haroon's Resume in a new tab"
-          href="https://drive.google.com/file/d/1uhqGsLAP5fboMjibOxaiEXSpaSQjUGrU/view?usp=sharing" target="_blank"
+          href="https://drive.google.com/file/d/1aGWZTh-a3pT-PCytrZx1zVAoySYnQTkg/view?usp=sharing" target="_blank"
           class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
       </li>
     </ul>
@@ -251,13 +251,15 @@
         </blockquote> -->
         <p>
           
-          I am currently pursuing my Masters in Computer Science at the University of Florida with an expected completion date of May 2021. 
-          I did my Bachelor’s in Computer Science and Engineering and graduated by May 2016, after which I worked as a full-stack Software Developer for Zoho Corporation in Chennai, India, for almost three years. I am adept in Java, MySQL, jQuery, and JavaScript.
+          Hi there! I'm Mohammed Haroon Rasheed, a passionate and results-driven Software Engineer with experience in developing robust and efficient systems. I hold a Master of Science in Computer Science from the University of Florida and a Bachelor of Engineering in Computer Science and Engineering from SSN College of Engineering, Anna University.
+          Throughout my career, I've made significant contributions to the development and enhancement of various projects. At my most recent role at Varis LLC, I primarily worked with the Inventory team, optimizing performance and scalability to efficiently handle supplier inventory submissions with up to 500,000 items per submission
+         
           <!-- Detail-oriented Software Engineer with a get-it-done, on-time, and high-quality product spirit and a keen interest in Software Development and Artificial Intelligence. -->
         </p>
+        <p> My technical expertise includes Go (Golang), Java, JavaScript, and proficiency in working with databases like Postgres, MySQL, and Oracle. I'm also well-versed in using tools and frameworks such as Go Gin, Microservices, REST API, Kafka, Azure, Kubernetes, Docker, and more.</p>
         <p>
-          I am actively looking for full-time Software Engineering roles in the United States and can start working from May 2021. 
-          I am currently on an F1 visa with an OPT STEM extension of 3 years. 
+          I'm constantly seeking new challenges and opportunities to expand my skill set and contribute to innovative projects. As I am now open to new opportunities, I'm excited to explore possibilities in software development and contribute my expertise to impactful projects.
+          I can start working immediately. Let's connect and explore how we can collaborate on future endeavors!
         </p>
         <!-- <p>
           Another Paragraph
@@ -279,7 +281,78 @@
       <h3 class="page-title white-text teal">Experience</h3>
       <div class="container">
 
-        <!-- Latest Experience -->
+         <!-- Latest Experience -->
+         <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.govaris.com/" target="_blank"><img alt="varis logo"
+                    src="assets/img/varis.jpg" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title" style="position: relative;left: 22%;"><a href="https://www.govaris.com/" target="_blank"
+                      class="teal-text hoverline">Varis, LLC  </a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Software Developer 2</div>
+            <ul>
+              <b>Contributed to Varis, LLC (Part of Office Depot Corporation), a B2B Marketplace platform enhancing B2B sourcing, purchasing, and supply chain for suppliers and buyers. Mainly involved in the Varis Inventory team, with additional contributions to Varis Pricing, Offers, and Payments team.</b>
+              <li>
+              Developed and deployed three Kafka-based Microservices on Azure Kubernetes Service (AKS) for Varis Inventory, leveraging Go Gin framework. Efficiently handled supplier inventory submissions, processing up to 500,000 items per submission.
+              </li>
+              <li>
+              Engineered an efficient system for collecting changes from Inventory, Item, and Pricing data for Catalog publication, while designing sprint stories for its development. Integrated a Go Gin based 'Orchestrator' Microservice, utilizing Cron to seamlessly retrieve the changes at regular intervals.
+              </li>
+              <li>
+                Improved performance of PostgreSQL queries by implementing new indexes and removing obsolete ones. Achieved a 70% increase in performance for Select queries and enhanced Insert query efficiency.
+              </li>
+              <li>
+               Optimized the `inventory-retry` microservice by implementing go routines, allowing for concurrent processing of retries during inventory submissions by suppliers. Significantly reduced the time required to process 100 retries from an average of 60,000 ms to just 7,000 ms.
+              </li>
+              <li>
+                Developed a framework to implement Structured logging for all the Varis Inventory Microservices using Zap library in Golang, ensuring standardized and organized logs for efficient troubleshooting and analysis of system behavior.
+              </li>
+              <li>
+               Implemented a robust framework for the Varis Payments team, utilizing Azure SDK for Go to upload and download JP Morgan Chase Payment-Reconciliation files to an Azure Storage account and facilitated seamless file movement between different containers within the storage account.
+              </li>
+              <li>
+              Developed rigorous Unit Tests to maximize code coverage to 85% in Inventory's Microservices by leveraging Go's built-in 'testing' package, ensuring the delivery of reliable and high-quality code for production deployment.
+              </li>
+              <li>
+               Enhanced the Integration Tests, leveraging Go Gin framework for the `inventory-feed-processing` microservice by incorporating additional test cases, ensuring accurate validation of inventory item details. Seamlessly integrated the improved tests into the CI/CD pipeline to mitigate potential negative impacts caused by new changes or features.
+              </li>
+              <li>
+               Implemented a comprehensive alerting system using New Relic and seamlessly integrated it with OpsGenie to efficiently manage critical production alerts. This setup facilitated immediate notifications to on-call developers, ensuring prompt incident response and resolution.
+              </li>
+               <li>
+               Implemented GitHub workflows across all Inventory Microservices to perform code coverage analysis during pull-requests, ensuring the successful execution of unit tests and maintaining code coverage above 80% for all packages. This automated process bolstered code quality and streamlined the development workflow. 
+              </li>
+              <li>
+              Successfully executed the migration of Inventory Microservices from AWS EKS (Elastic Kubernetes Service) to Azure Kubernetes Service (AKS), optimizing the infrastructure for enhanced performance and scalability.
+              </li>
+              <li>
+              Engineered an efficient framework for Inventory Microservices, leveraging the Patrickmn cache library in Golang, to seamlessly implement an in-memory cache for quick and reliable access to frequently used data. This cache solution significantly improved the performance and responsiveness of the microservices.
+              </li>
+              <li>
+              Improved the Pricing-deletion microservice's efficiency by introducing HTTP streaming to process pricing records for deletion. This optimization prevents loading the entire dataset into the pod's memory at once, significantly reducing the risk of pod crashes, particularly when handling a large number of pricing records to be deleted, surpassing half a million.
+              </li>
+              <li>
+                <b>Technology stack: </b> Go (Golang), PostgreSQL, Kafka, Microsoft Azure, Gin (Go Gin), Microservices, Kubernetes, Docker
+              </li>
+               <li>
+                <b>Tools </b> GitHub (Version Control), Jenkins CI/CD, Rancher, Codacy, Snyk, New Relic, Opsgenie, Jira, Confluence, Visual Studio, Postman
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>June 2021 - July 2023 | Florida, USA (Remote)</span>
+          </div>
+        </div>
+
+        <!-- Experience -->
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -318,7 +391,10 @@
               </li>
               
               <li>
-                <b>Tools:</b> Java, Struts, JavaScript, jQuery, MySQL 
+                <b>Technology Stack:</b> Java, Struts, JavaScript, jQuery, MySQL 
+              </li>
+               <li>
+                <b>Tools</b> Eclipse, Jenkins, Mercurial (Version Control)
               </li>
             </ul>
           </div>
@@ -554,6 +630,9 @@
             <h4 class="brown-text light">Languages</h4>
             <div class="row text-center">
               <div class="col s4 m2">
+                <img alt="" src="assets/img/golang.png" class="responsive-img" /><b>Go (Proficient)</b>
+              </div>
+              <div class="col s4 m2">
                 <img alt="" src="assets/img/java.jpg" class="responsive-img" /><b>Java (Proficient)</b>
               </div>
               <div class="col s4 m2">
@@ -583,6 +662,9 @@
             <h4 class="brown-text light">Databases and Libraries</h4>
             <div class="row text-center">
               <div class="col s4 m2">
+                <img alt="" src="assets/img/postgresql.png" class="responsive-img" /><b>PostgreSQL</b>
+              </div>
+              <div class="col s4 m2">
                 <img alt="" src="assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" /><b>MySQL</b>
               </div>
               <div class="col s4 m2">
@@ -600,21 +682,42 @@
           <div class="card-content">
             <h4 class="brown-text light">Tools and Frameworks</h4>
             <div class="row text-center">
-
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/gogin.png" class="responsive-img" /><b>Go Gin</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/kafka.png" class="responsive-img" /><b>Kafka</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/azure.png" class="responsive-img" /><b>Azure</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/kubernetes.png" class="responsive-img" /><b>Kubernetes</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/docker.png" class="responsive-img" /><b>Docker</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/rancher.png" class="responsive-img" /><b>Rancher</b>
+              </div>
               <div class="col s4 m2">
                 <img alt="" src="assets/img/Restapi.png" class="responsive-img" /><b>Rest API</b>
               </div>
               <div class="col s4 m2">
-                <img alt="" src="assets/img/git.png" class="responsive-img" /><b>Git</b>
+                <img alt="" src="assets/img/github.png" class="responsive-img" /><b>GitHub</b>
               </div>
               <div class="col s4 m2">
                 <img alt="" src="assets/img/mercuriallogo.png" class="responsive-img" /><b>Mercurial</b>
               </div>
-              <div class="col s4 m2">
-                <img alt="" src="assets/img/strutslogo.jpg" class="responsive-img" /><b>Struts</b>
-              </div>
+       
               <div class="col s4 m2">
                 <img alt="" src="assets/img/springlogo.png" class="responsive-img" /><b>Spring</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/newrelic.svg" class="responsive-img" /><b>NewRelic</b>
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img/jenkins.jpeg" class="responsive-img" /><b>Jenkins</b>
               </div>
             </div>
           </div>
@@ -673,7 +776,7 @@
                 <p>
                   <b>Degree: </b>Master of Science in Computer Science
                   <br>
-                  <b>GPA: </b>3.77/4.0
+                  <b>GPA: </b>3.80/4.0
                 </p>
 
                 <ul>
@@ -707,12 +810,6 @@
           <a aria-label="Call Haroon" data-position="top" data-tooltip="Call Haroon"
             class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
               aria-label="Call Haroon">(352) 871 4357</a></a>
-        </p>
-        <p>
-          <a aria-label="Mail Haroon" href="mailto:mkalilurrahman@ufl.edu" target="_blank" data-position="top"
-            data-tooltip="Mail Haroon" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Mail Haroon" href="mailto:mkalilurrahman@ufl.edu"
-              class="hoverline">mkalilurrahman@ufl.edu </a></a>
         </p>
         <p>
           <a aria-label="Mail Haroon" href="mailto:harunrasheed94@gmail.com" target="_blank" data-position="top"
